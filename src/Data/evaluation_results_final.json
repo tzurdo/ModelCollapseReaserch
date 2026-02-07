@@ -1,0 +1,42 @@
+{
+  "Base (Untrained)": {
+    "lexical_diversity": {
+      "type_token_ratio": 0.3398,
+      "vocabulary_size": 1811,
+      "total_tokens": 5329,
+      "bigram_diversity": 0.7456
+    },
+    "perplexity": 5.7,
+    "num_prompts": 50
+  },
+  "Human-trained": {
+    "lexical_diversity": {
+      "type_token_ratio": 0.3294,
+      "vocabulary_size": 1912,
+      "total_tokens": 5805,
+      "bigram_diversity": 0.7552
+    },
+    "perplexity": 7.03,
+    "num_prompts": 50
+  },
+  "AI-trained": {
+    "lexical_diversity": {
+      "type_token_ratio": 0.2357,
+      "vocabulary_size": 1373,
+      "total_tokens": 5825,
+      "bigram_diversity": 0.5108
+    },
+    "perplexity": 3.07,
+    "num_prompts": 50
+  },
+  "Mixed-trained": {
+    "lexical_diversity": {
+      "type_token_ratio": 0.3234,
+      "vocabulary_size": 1865,
+      "total_tokens": 5767,
+      "bigram_diversity": 0.7324
+    },
+    "perplexity": 5.19,
+    "num_prompts": 50
+  }
+}
